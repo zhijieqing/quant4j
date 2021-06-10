@@ -55,15 +55,15 @@ spring:
     default-encoding: utf-8
     from: yangge975965279@vip.qq.com #与上面的username保持一致
 #  mapper-locations: classpath:/mapper/*
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://${EUREKA_ZONE_HOST:localhost}:${EUREKA_ZONE_PORT:8761}/eureka/
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://${EUREKA_ZONE_HOST:localhost}:${EUREKA_ZONE_PORT:8761}/eureka/
 mybatis-plus:
   mapper-locations: classpath*:mapper/*Mapper.xml
 
 vpnproxy:
-  enable: false
+  enable: true
   ip: 127.0.0.1
-  port: 1088
+  port: 1081
 

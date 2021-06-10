@@ -65,10 +65,10 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
         <!--注册中心-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>-->
+<!--        </dependency>-->
         <!--断路器-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -93,12 +93,14 @@
         <dependency>
             <groupId>org.ta4j</groupId>
             <artifactId>ta4j-core</artifactId>
-            <version>0.13</version>
+            <version>0.14</version>
+            <scope>system</scope>
+            <systemPath>C:\\Users\\Administrator\\.m2\\repository\\org\\ta4j\\ta4j-core\\0.13-SNAPSHOT\\ta4j-core-0.13-SNAPSHOT.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.ta4j</groupId>
             <artifactId>ta4j-examples</artifactId>
-            <version>0.12</version>
+            <version>0.14</version>
         </dependency>
     </dependencies>
     <repositories>
